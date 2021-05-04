@@ -8,7 +8,6 @@ body, html {
 
 * {
     box-sizing:border-box;
-    border: &#x273F; repeat;
 }
 
 .overall{
@@ -22,15 +21,15 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 700px;
-    width: 500px;
+    height: 800px;
+    width: 900px;
     background-color: #5D4E6D;
     color: white;
 }
 .paragraph-info{
     background-color: #9cbfa7;
     color: black;
+    border: 3px dotted #4f345a;
     font-size: 15px;
     text-indent: 1.0em;
     display: flex;
@@ -38,8 +37,26 @@ body, html {
     align-items: center;
     justify-content: center;
 }
-.test-button{
+#test-button{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
+h1{
+    border: 3px dotted #8fa998;
+}
+li{
+    list-style: none;
+ }
+ #user-results{
+     background-color: white;
+     color: black;
+ }
+
+ .extra-stuff{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
