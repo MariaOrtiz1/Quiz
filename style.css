@@ -21,14 +21,14 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
-    width: 900px;
+    height: 900px;
+    width: 1000px;
     background-color: #5D4E6D;
     color: white;
 }
 .paragraph-info{
     background-color: #9cbfa7;
-    color: black;
+    color: #4f345a;
     border: 3px dotted #4f345a;
     font-size: 15px;
     text-indent: 1.0em;
@@ -36,6 +36,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 #test-button{
     display: flex;
@@ -43,20 +44,22 @@ body, html {
     align-items: flex-start;
 }
 
-h1{
-    border: 3px dotted #8fa998;
-}
 li{
     list-style: none;
  }
  #user-results{
-     background-color: white;
-     color: black;
+    background-color: #9cbfa7;
+     color: #4f345a;
  }
 
- .extra-stuff{
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- }
+.extra-stuff{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+img{
+    float: left;
+    border: 3px dotted #9cbfa7;
+}
